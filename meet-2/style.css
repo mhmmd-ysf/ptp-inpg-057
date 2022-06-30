@@ -1,0 +1,58 @@
+/* @import  */
+.link {
+  font-size: large;
+}
+
+.link:hover {
+  color: green;
+}
+
+.link:active {
+  color: yellow;
+}
+
+.link:visited {
+  color: black;
+}
+
+div {
+  /* margin: 100px 20px 50px 60px;
+  padding-top: 50px; */
+  /* border-width: 5px;
+  border-style: dashed dotted solid dotted;
+  border-color: blue; */
+  border: 5px solid salmon;
+}
+
+.artikel div {
+  color: red;
+}
+
+div .artikel {
+  color: blue;
+}
+
+h1.teks-kuning {
+  margin: 0;
+  color: yellow;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  /* font-family: Splash; */
+  font-weight: 900;
+  border-style: solid;
+}
+
+/* @font-face {
+  font-family:;
+  src: ;
+} */
+
+ul {
+  list-style-type: circle;
+}
